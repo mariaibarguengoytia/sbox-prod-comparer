@@ -4,7 +4,7 @@ comparador de versiones de sandbox y prod
 
 * ```git clone git@github.com:despegar/sbox-prod-comparer.git```
 * Dar permisos de ejecución a los scripts
-* ejecutar ```./check_version_batch_process.sh {archivo_con_urls_versions} {url_chat_de_google}```
+* ejecutar ```./check_version_batch_process.sh {archivo_con_urls_versions} '{url_chat_de_google}'```
 
 ## Formato archivo de URls
 
@@ -18,4 +18,4 @@ El archivo con las urls de versiones debe contener una URL por renglon, como por
 
 ### Ejemplo
 
-`./check_version_batch_process.sh urls.txt https://chat.googleapis.com/v1/spaces.....`
+`./check_version_batch_process.sh urls.txt https://chat.googleapis.com/v1/spaces.....'`

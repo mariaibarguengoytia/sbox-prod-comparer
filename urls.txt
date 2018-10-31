@@ -1,0 +1,2 @@
+ http://proxy/cars-gaia/version
+ http://proxy/cars-mossad/version

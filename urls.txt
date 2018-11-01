@@ -1,2 +1,8 @@
  http://proxy/cars-gaia/version
- http://proxy/cars-mossad/version
+ http://proxy/v3/cars/search/version
+ http://proxy/dbs-car/version
+ http://proxy/cars-contracts/version
+ http://proxy/cars-abacus/version
+ http://proxy/v3/cars/checkout/version
+ http://proxy/cars-apolo/version
+ http://proxy/cars-chasqui/version

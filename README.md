@@ -35,3 +35,7 @@ echo "http://proxy/v3/cars/search/version" >> urls_version.txt
 chmod +x check_version_batch_process.sh check-version-prod-sbox.sh
 ./check_version_batch_process.sh urls_version.txt 'https://chat.googleapis.com/v1/spaces/AAAAq90w1fY...'
 ```
+
+### Como se ve en Google Chat
+
+![Imagen ejemplo chat](ejem_chat.png?raw=true "Ejemplo Google Chat")

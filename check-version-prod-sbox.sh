@@ -4,13 +4,13 @@ urlChatGoogle=$2
 echo "CHECKING $urlVersion..."
 
 case $3 in
-hsm)
-	echo "platform: hsm"
+useJson)
+	echo "use Json"
 	vProd=$(curl -s  $urlVersion | jq '.data.body // empty')
 	vSbox=$(curl -s $urlVersion -H "XDESP-SANDBOX: true" | jq '.data.body // empty')
 ;;
 *)
-	echo "platform: default"
+	echo "use String"
 	vProd=$(curl -s  $urlVersion)
 	vSbox=$(curl -s $urlVersion -H "XDESP-SANDBOX: true")
 ;;
